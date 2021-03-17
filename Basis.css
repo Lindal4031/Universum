@@ -30,6 +30,34 @@
 
 }
 
+#canvas {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+h1 {
+  color: var(--bg);
+  position: relative;
+  font-size: 12vw;
+  line-height: 100vh;
+  margin: 0;
+  pointer-events: none;
+}
+body {
+  min-height: 100vh;
+  background: var(--fg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+:root {
+  --fg: #ff4000;
+  --bg: #000057;
+}
+
 .img{
 
       border-radius:50px ;
@@ -43,8 +71,18 @@
             }
 
 
+
+
 ::s
 election {
   background:PaleVioletRed ;
 }
+<<<<<<< HEAD
+=======
+.Navi
+{
+    color: aquamarine
+}
+
+>>>>>>> origin/master
 
