@@ -28,3 +28,10 @@
     font-size: 200px;
     text-shadow: 2px 2px #ffffff
 }
+::selection {
+  background:PaleVioletRed ;
+}
+.Navi
+{
+    color: aquamarine
+}
