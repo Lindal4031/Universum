@@ -1,5 +1,4 @@
-.banner
-{
+.banner {
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -8,8 +7,7 @@
     align-items: center;
 }
 
-.banner video
-{
+.banner video {
     position: absolute;
     top: 0;
     left: 0;
@@ -20,95 +18,126 @@
 
 }
 
-.banner .content
-{
+.banner .content {
     position: relative;
     z-index: 1;
     margin: 0 auto;
     font-size: 200px;
     text-shadow: 4px 5px #ffffff
-
 }
 
 :root {
-  --fg: #ff4000;
-  --bg: #000057;
+    --fg: #ff4000;
+    --bg: #000057;
 }
 
-.img{
+.img {
 
-      border-radius:50px ;
-    filter: drop-shadow(20px 20px 40px #0431B4)
-       transition: transform 5s;
+    border-radius: 50px;
+    filter: drop-shadow(20px 20px 40px #0431B4) transition: transform 5s;
 
 }
 
-            img:hover{
-                transform: scale(0.87, 0.87);
-            }
+img:hover {
+    transform: scale(0.87, 0.87);
+}
 
 
 
 
 ::selection {
-  background:PaleVioletRed ;
+    background: PaleVioletRed;
 }
 
-<<<<<<< HEAD
-=======
-.Navi
-{
+<<<<<<< HEAD=======.Navi {
     color: aquamarine
 }
 
->>>>>>> origin/master
-
-html, body {
-  height: 100%;
-  margin: 0;
+> > > > > > > origin/master html,
+body {
+    height: 100%;
+    margin: 0;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
 
 }
 
 h1 {
-  position: relative;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  font-size: 10vw;
-  font-weight: 900;
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  background-size: 120% 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -ms-background-clip: text;
-  -ms-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  background-image: linear-gradient(45deg,
-                    #7794ff,
-                    #44107A,
-                    #FF1361,
-                    #FFF800);
-  animation: .8s shake infinite alternate;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 10vw;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-size: 120% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-image: linear-gradient(45deg,
+            #7794ff,
+            #44107A,
+            #FF1361,
+            #FFF800);
+    animation: .8s shake infinite alternate;
 }
 
 @keyframes shake {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }
+    0% {
+        transform: skewX(-15deg);
+    }
+
+    5% {
+        transform: skewX(15deg);
+    }
+
+    10% {
+        transform: skewX(-15deg);
+    }
+
+    15% {
+        transform: skewX(15deg);
+    }
+
+    20% {
+        transform: skewX(0deg);
+    }
+
+    100% {
+        transform: skewX(0deg);
+    }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
